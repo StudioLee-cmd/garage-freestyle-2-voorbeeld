@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BuurtGarage Rotterdam — Uw Lokale Autogarage</title>
+  <meta name="description" content="BuurtGarage Rotterdam: uw vertrouwde garage voor APK, onderhoud, banden en schadeherstel. Persoonlijk en vakkundig.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/lucide-static@latest/font/lucide.css">
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">Buurt<span>Garage</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">Over Ons</a></li>
+        <li><a href="#services">Diensten</a></li>
+        <li><a href="#ba">Voor & Na</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"><img src="images/hero.jpg" alt="BuurtGarage Rotterdam"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="badge">Trusted by 500+ garages</span>
+      <h1>De garage <span>van uw buurt.</span></h1>
+      <p>BuurtGarage Rotterdam is de persoonlijke autogarage waar vakmanschap en eerlijkheid centraal staan. Geen onverwachte kosten, wel topservice.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Maak een Afspraak</a>
+        <a href="#services" class="btn btn-outline">Bekijk Diensten</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item"><h3>18+</h3><p>Jaar ervaring</p></div>
+        <div class="stat-item"><h3>7.500+</h3><p>Tevreden klanten</p></div>
+        <div class="stat-item"><h3>4.8</h3><p>Google score</p></div>
+      </div>
+    </div>
+  </section>
+  <div class="ticker" style="background:var(--color-accent,#f5a623);padding:12px 0;overflow:hidden;">
+    <div style="display:flex;gap:48px;animation:tickerScroll 20s linear infinite;white-space:nowrap;">
+      <span><iconify-icon icon="lucide:car"></iconify-icon> APK</span><span><iconify-icon icon="lucide:wrench"></iconify-icon> Onderhoud</span><span><iconify-icon icon="lucide:circle"></iconify-icon> Banden</span><span><iconify-icon icon="lucide:disc"></iconify-icon> Remmen</span><span><iconify-icon icon="lucide:wind"></iconify-icon> Airco</span><span><iconify-icon icon="lucide:shield"></iconify-icon> Schadeherstel</span><span><iconify-icon icon="lucide:car"></iconify-icon> APK</span><span><iconify-icon icon="lucide:wrench"></iconify-icon> Onderhoud</span><span><iconify-icon icon="lucide:circle"></iconify-icon> Banden</span><span><iconify-icon icon="lucide:disc"></iconify-icon> Remmen</span><span><iconify-icon icon="lucide:wind"></iconify-icon> Airco</span><span><iconify-icon icon="lucide:shield"></iconify-icon> Schadeherstel</span>
+    </div>
+  </div>
+  <style>@keyframes tickerScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}</style>
+  <style>.ticker span{display:inline-flex;align-items:center;gap:8px;font-size:0.85rem;font-weight:700;color:var(--color-bg,#0a0a0f);text-transform:uppercase;letter-spacing:0.05em;}</style>
+
+
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-image"><img src="images/about.jpg" alt="Over BuurtGarage"></div>
+      <div class="about-text">
+        <span class="badge">Over ons</span>
+        <h2>Persoonlijk, eerlijk en altijd dichtbij</h2>
+        <p>Sinds 2008 zijn wij de vaste garage voor duizenden Rotterdammers. Wij kennen onze klanten bij naam en zorgen dat elke auto de aandacht krijgt die hij verdient.</p>
+        <ul class="about-features">
+          <li><i class="lucide-check"></i> RDW-erkend keuringstation</li>
+          <li><i class="lucide-check"></i> Alle merken welkom</li>
+          <li><i class="lucide-check"></i> Transparante werkplaats</li>
+          <li><i class="lucide-check"></i> Gratis haal- en brengservice</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Neem Contact Op</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Diensten</span>
+        <h2>Wat wij voor u doen</h2>
+        <p>Complete autoservice onder een dak.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="icon"><i class="lucide-car"></i></div>
+          <h3>APK-keuring</h3>
+          <p>Officieel RDW-erkend. Snel uw APK geregeld, vaak dezelfde dag nog klaar.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon"><i class="lucide-wrench"></i></div>
+          <h3>Onderhoud</h3>
+          <p>Periodiek onderhoud volgens fabrieksvoorschriften zodat uw garantie behouden blijft.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon"><i class="lucide-circle"></i></div>
+          <h3>Banden</h3>
+          <p>Banden wisselen, uitlijnen en balanceren. Topmerken tegen scherpe prijzen.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon"><i class="lucide-disc"></i></div>
+          <h3>Remmen</h3>
+          <p>Remschijven, remblokken en remvloeistof. Uw veiligheid is onze prioriteit.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon"><i class="lucide-wind"></i></div>
+          <h3>Airco</h3>
+          <p>Airco-service, bijvullen en lekdetectie. Rijd het hele jaar comfortabel.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon"><i class="lucide-shield"></i></div>
+          <h3>Schadeherstel</h3>
+          <p>Deuk-, lak- en schadeherstel. Wij werken samen met alle verzekeraars.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Before/After -->
+  <section id="ba" class="ba-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Voor & Na</span>
+        <h2>Het verschil zien</h2>
+        <p>Verschuif de slider om het resultaat van ons vakmanschap te zien.</p>
+      </div>
+      <div class="ba-slider" id="ba-slider">
+        <img src="images/ba-before.jpg" alt="Voor reparatie">
+        <div class="ba-after">
+          <img src="images/ba-after.jpg" alt="Na reparatie">
+        </div>
+        <div class="ba-handle"></div>
+        <span class="ba-label ba-label-before">Voor</span>
+        <span class="ba-label ba-label-after">Na</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Projecten</span>
+        <h2>Recent afgeronde klussen</h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="images/project1.jpg" alt="Motorblok revisie">
+          <div class="overlay">
+            <h3>Distributieriem Vervanging</h3>
+            <p>Complete vervanging inclusief waterpomp en spanrollen.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="images/project2.jpg" alt="Schadeherstel">
+          <div class="overlay">
+            <h3>Bumper Reparatie</h3>
+            <p>Achterbumper gespoten en hersteld na een aanrijding.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="images/detail.jpg" alt="Detail">
+          <div class="overlay">
+            <h3>Interieur Reiniging</h3>
+            <p>Volledige stoomreiniging van interieur en stoelen.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="images/craft.jpg" alt="Bandenwisseling">
+          <div class="overlay">
+            <h3>Winterbanden Set</h3>
+            <p>4 nieuwe winterbanden gemonteerd, uitgebalanceerd en uitgelijd.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="carousel-section">
+    <div class="section-header">
+      <span class="badge">Werkplaats</span>
+      <h2>Onze garage in beeld</h2>
+    </div>
+    <div class="carousel-track" id="carousel">
+      <img src="images/hero.jpg" alt="Werkplaats 1">
+      <img src="images/about.jpg" alt="Werkplaats 2">
+      <img src="images/craft.jpg" alt="Werkplaats 3">
+      <img src="images/detail.jpg" alt="Werkplaats 4">
+      <img src="images/kitchen.jpg" alt="Werkplaats 5">
+      <img src="images/carousel.jpg" alt="Werkplaats 6">
+      <img src="images/hero.jpg" alt="Werkplaats 7">
+      <img src="images/about.jpg" alt="Werkplaats 8">
+      <img src="images/craft.jpg" alt="Werkplaats 9">
+      <img src="images/detail.jpg" alt="Werkplaats 10">
+    </div>
+  </section>
+
+  <section id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Reviews</span>
+        <h2>Wat klanten over ons zeggen</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Eindelijk een eerlijke garage! Duidelijke uitleg, geen overbodige reparaties en een prima prijs."</p>
+          <div class="author">
+            <div class="author-avatar">HB</div>
+            <div class="author-info"><span class="name">Henk Bos</span><span class="role">Rotterdam-Zuid</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Al 8 jaar vaste klant. De haal- en brengservice is geweldig als je een druk leven hebt."</p>
+          <div class="author">
+            <div class="author-avatar">ES</div>
+            <div class="author-info"><span class="name">Eva Smits</span><span class="role">Rotterdam-West</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Schadeherstel perfect afgehandeld. Zij regelden alles met de verzekeraar. Echt makkelijk!"</p>
+          <div class="author">
+            <div class="author-avatar">DV</div>
+            <div class="author-info"><span class="name">Dennis Vliet</span><span class="role">Rotterdam-Noord</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="contact">
+    <div class="cta-bg"><img src="images/cta-bg.jpg" alt="Contact BuurtGarage"></div>
+    <div class="cta-overlay"></div>
+    <div class="cta-content">
+      <h2>Tijd voor een onderhoudsbeurt?</h2>
+      <p>Plan uw afspraak eenvoudig online of bel ons direct. Wij staan voor u klaar.</p>
+      <a href="tel:+31100000000" class="btn btn-primary">Bel Direct: 010-0000000</a>
+    </div>
+  </section>
+
+  <section class="team-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Team</span>
+        <h2>Ons team van monteurs</h2>
+      </div>
+      <div class="team-image"><img src="images/team.jpg" alt="Team BuurtGarage"></div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">FAQ</span>
+        <h2>Veelgestelde vragen</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">Hoe lang duurt een onderhoudsbeurt? <i class="lucide-plus"></i></button>
+          <div class="faq-answer"><p>Een kleine beurt duurt circa 1 uur, een grote beurt 2-3 uur. Wij bellen u altijd voor er extra werk nodig is.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Kan ik mijn auto 's ochtends brengen en 's avonds ophalen? <i class="lucide-plus"></i></button>
+          <div class="faq-answer"><p>Zeker! U kunt uw auto voor openingstijd afgeven via onze sleutelkluis en 's avonds weer ophalen.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Werken jullie met originele onderdelen? <i class="lucide-plus"></i></button>
+          <div class="faq-answer"><p>Wij werken met OEM-kwaliteit onderdelen die gelijkwaardig zijn aan origineel. Op verzoek plaatsen wij ook originele onderdelen.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Blijft mijn fabrieksgarantie behouden? <i class="lucide-plus"></i></button>
+          <div class="faq-answer"><p>Ja, wij werken volgens fabrieksvoorschriften waardoor uw garantie volledig behouden blijft.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">Buurt<span>Garage</span></a>
+          <p>Uw vertrouwde buurtgarage in Rotterdam. Persoonlijk, eerlijk en vakkundig sinds 2008.</p>
+        </div>
+        <div>
+          <h4>Diensten</h4>
+          <ul>
+            <li><a href="#services">APK-keuring</a></li>
+            <li><a href="#services">Onderhoud</a></li>
+            <li><a href="#services">Banden</a></li>
+            <li><a href="#services">Schadeherstel</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Navigatie</h4>
+          <ul>
+            <li><a href="#about">Over Ons</a></li>
+            <li><a href="#ba">Voor & Na</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+31100000000">010-0000000</a></li>
+            <li><a href="mailto:info@buurtgarage.nl">info@buurtgarage.nl</a></li>
+            <li><a href="#">Rotterdam</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 BuurtGarage Rotterdam. Alle rechten voorbehouden.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="lucide-facebook"></i></a>
+          <a href="#" aria-label="Instagram"><i class="lucide-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="lucide-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script>
+    window.addEventListener('scroll', () => { document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50); });
+    document.getElementById('hamburger').addEventListener('click', () => { document.getElementById('nav-links').classList.toggle('active'); });
+    document.querySelectorAll('.faq-question').forEach(btn => { btn.addEventListener('click', () => { btn.parentElement.classList.toggle('active'); }); });
+
+    // Before/After slider
+    const slider = document.getElementById('ba-slider');
+    if (slider) {
+      const afterDiv = slider.querySelector('.ba-after');
+      const handle = slider.querySelector('.ba-handle');
+      let dragging = false;
+      function updateSlider(x) {
+        const rect = slider.getBoundingClientRect();
+        let pct = ((x - rect.left) / rect.width) * 100;
+        pct = Math.max(2, Math.min(98, pct));
+        afterDiv.style.width = pct + '%';
+        handle.style.left = pct + '%';
+      }
+      slider.addEventListener('mousedown', (e) => { dragging = true; updateSlider(e.clientX); });
+      window.addEventListener('mousemove', (e) => { if (dragging) updateSlider(e.clientX); });
+      window.addEventListener('mouseup', () => { dragging = false; });
+      slider.addEventListener('touchstart', (e) => { dragging = true; updateSlider(e.touches[0].clientX); });
+      window.addEventListener('touchmove', (e) => { if (dragging) updateSlider(e.touches[0].clientX); });
+      window.addEventListener('touchend', () => { dragging = false; });
+    }
+
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.utils.toArray('.service-card, .project-card, .testimonial-card').forEach((el, i) => {
+      gsap.from(el, { scrollTrigger: { trigger: el, start: 'top 85%' }, y: 60, opacity: 0, duration: .8, delay: i % 3 * .15, ease: 'power3.out' });
+    });
+    gsap.from('.hero-content', { y: 80, opacity: 0, duration: 1.2, ease: 'power3.out' });
+    gsap.from('.hero-stats .stat-item', { y: 40, opacity: 0, duration: .8, stagger: .15, delay: .6, ease: 'power3.out' });
+    gsap.from('.about-image', { scrollTrigger: { trigger: '.about-grid', start: 'top 75%' }, x: -80, opacity: 0, duration: 1, ease: 'power3.out' });
+    gsap.from('.about-text', { scrollTrigger: { trigger: '.about-grid', start: 'top 75%' }, x: 80, opacity: 0, duration: 1, ease: 'power3.out' });
+    gsap.from('.ba-slider', { scrollTrigger: { trigger: '.ba-section', start: 'top 75%' }, scale: .9, opacity: 0, duration: 1, ease: 'power3.out' });
+
+    const track = document.getElementById('carousel');
+    let pos = 0;
+    function animateCarousel() { pos -= 0.5; if (Math.abs(pos) >= track.scrollWidth / 2) pos = 0; track.style.transform = `translateX(${pos}px)`; requestAnimationFrame(animateCarousel); }
+    animateCarousel();
+  </script>
+</body>
+</html>
